@@ -173,6 +173,8 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+static/
+
 
 .DS_Store
 .thumbs.db

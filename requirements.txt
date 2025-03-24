@@ -1,0 +1,28 @@
+# Core
+Django==5.1.7
+django-environ==0.12.0
+setuptools==77.0.3
+uvicorn==0.34.0
+
+# Postgres
+psycopg==3.2.6
+psycopg-binary==3.2.6
+
+# Rest apis
+djangorestframework==3.15.2
+django-filter==24.3
+
+drf-spectacular==0.28.0
+drf-spectacular-sidecar==2025.3.1
+
+asgiref==3.8.1
+
+# Celery
+celery==5.4.0
+django-celery-beat==2.7.0
+django-celery-results==2.5.1
+
+redis==5.2.1
+
+channels==4.2.0
+channels-redis==4.2.1
