@@ -15,5 +15,26 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "python.sortImports.args": [
+    "--profile",
+    "black",
+    "--known-local-folder",
+    "apps"
+  ],
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--line-length",
+    "79",
+    "--experimental-string-processing"
+  ],
+  "search.exclude": {
+    "**/.git": true,
+    "**/venv": true
   }
 }
