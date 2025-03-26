@@ -207,3 +207,9 @@ yarn-error.log*
 
 # local .env files
 .env.local*
+
+# Runtime directory with static files
+static/
+
+# Rustlang build directory
+rust_build_target
